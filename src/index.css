@@ -11,3 +11,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+button input {
+  border-radius: 5px;
+}
+
+input {
+  border-radius: 5px;
+}
+
+p {
+  position: absolute;
+  z-index: 2;
+  left: 40%;
+  color: white;
+  font-size: 50px;
+}
+
+#p1 {
+  text-align: center;
+  top: 250px;
+}
+#p2 {
+  text-align: center;
+  top: 650px;
+}
+
+img {
+  position: auto;
+  z-index: -1;
+  border-radius: 100px;
+}
